@@ -1,3 +1,5 @@
+# ChewYoob 🎞️💾
+
 ChewYoob will accept a user-provided YouTube URL, and download the highest quality video or audio stream available to the selected local directory. 
 
 This is my second Python project. Don't expect best practice, efficiency or elegance in the code!
