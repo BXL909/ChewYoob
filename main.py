@@ -1,12 +1,12 @@
+import io
+import os
 import tkinter as tk
 from tkinter import *
 from tkinter import filedialog as fd
-from pytube import YouTube
 from urllib.request import urlopen
-import io
-import os
 from PIL import Image, ImageTk
 import datetime
+from pytube import YouTube
 
 # --- constants --- (UPPER_CASE_NAMES)
 # title bar colors
@@ -93,9 +93,9 @@ class MyTitleBar(tk.Frame):
         imglabel.configure(image=tk_img)
         imglabel.image=tk_img
         disptitleofvideo.set("")
-        dispvideoauthor.set("             ChewYoob v1.0")
+        dispvideoauthor.set("             ChewYoob v1.01")
         dispvideoduration.set("")
-        dispvideopublishdate.set("   https://github.com/BXL909")
+        dispvideopublishdate.set("     https://bxl909.github.io/")
         dispvideofilesize.set("")
 
 # --- main ---
